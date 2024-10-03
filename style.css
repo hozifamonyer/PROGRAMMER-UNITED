@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #8a58cfc2;
+
+}
+
+ul {
+  display: flex;
+  position: relative;
+  left: 170px;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #76323C;
+  color: white;
+  height: 30px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  position: relative;
+  right: 300px;
+}
+::placeholder{
+  color: wheat;
+  padding: 10px;
+  font-size: 15px;
+}
+.h12 {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(97, 34, 156);
+  display: flex;
+}
+
+.card {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows: repeat(2,50%);
+  row-gap: 20px;          
+  column-gap: 5px;
+  padding: 30px;
+  background: linear-gradient(to right, #7131ca, rgba(184, 180, 180, 0.774));
+}
+/*
+  1fr or number fr
+  يعني هي قيمة افتراضية 
+  25% 50% او 
+  اما بكسل بشكل عرض 
+  gap من اجل مسافة بين عمود او سطر
+  gap row
+  gap column
+     grid-template-columns: repeat(3,300px);
+  grid-template-rows: repeat(2,50%);
+  repeat(3 ,300px) (عددعمود او سطر , px or fr or  %)
+*/
+.card1 {
+  width: 200px;
+  height: 280px;
+  background-color: #4C4851;
+  color: white;
+  position: relative;
+  left: 210px;
+  box-shadow: 3px 6px 5px 6px rgb(41 41 52);
+  border-radius: 10px;
+  padding: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card1:hover {
+  background-color: rgb(35, 88, 124);
+  box-shadow: 10px -1px 9px 4px rgb(57, 57, 61);
+
+}
+
+.ss {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(6, 6, 80, 0.452);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.ss:hover {
+  width: 100px;
+  height: 30px;
+  color: #ecdddd;
+  background-color: rgb(3, 88, 14);
+}
+
+.sw1 {
+  padding: 15px;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  top: 70px;
+
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.about {
+  background-image: url('./asstes/image/pexels-divinetechygirl-1181325.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.us {
+  padding: 50px;
+  position: relative;
+  top: 200px;
+
+}
+
+
+.hhh {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(6, 6, 80, 0.452);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.hhh:hover {
+  width: 100px;
+  height: 30px;
+  color: #ecdddd;
+  background-color: rgb(16, 74, 160);
+}
+.contact{
+  background-image: url('./asstes/image/photo-1517245386807-bb43f82c33c4.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+
+}
+.h22{
+  width: 500px;
+  height: 500px;
+  border: 6px solid rgba(39, 36, 143, 0.425);
+  background-color: #605e6338;
+  border-radius: 10px;
+}
